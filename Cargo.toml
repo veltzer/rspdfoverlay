@@ -1,0 +1,8 @@
+[package]
+name = "rspdfoverlay"
+version = "0.1.0"
+edition = "2024"
+
+[[bin]]
+name = "rspdfoverlay"
+path = "src/main.rs"
