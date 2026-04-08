@@ -2,7 +2,12 @@
 name = "rspdfoverlay"
 version = "0.1.0"
 edition = "2024"
+authors = ["Mark Veltzer <mark.veltzer@gmail.com>"]
+description = "Overlay data on pdf files"
+license = "MIT"
+repository = "https://github.com/veltzer/rspdfoverlay"
 
-[[bin]]
-name = "rspdfoverlay"
-path = "src/main.rs"
+[profile.release]
+strip = true
+lto = true
+codegen-units = 1
