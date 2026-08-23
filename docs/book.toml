@@ -1,0 +1,14 @@
+[book]
+authors = ["Mark Veltzer <mark.veltzer@gmail.com>"]
+language = "en"
+src = "src"
+title = "rspdfoverlay - Overlay data on pdf files"
+
+[build]
+build-dir = "book"
+
+[output.html]
+default-theme = "rust"
+preferred-dark-theme = "ayu"
+git-repository-url = "https://github.com/veltzer/rspdfoverlay"
+edit-url-template = "https://github.com/veltzer/rspdfoverlay/edit/master/docs/{path}"
