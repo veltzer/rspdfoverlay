@@ -1,3 +1,5 @@
+//! rspdfoverlay: Overlay data on pdf files.
+
 fn main() {
     println!("Hello, World!");
 }
